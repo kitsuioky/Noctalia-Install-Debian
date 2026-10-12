@@ -1,0 +1,10 @@
+-- env.lua — variáveis de ambiente (gerenciado pelo Noctalia-install-deb)
+hl.env("QT_QPA_PLATFORM", "wayland;xcb")
+hl.env("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1")
+hl.env("GDK_BACKEND", "wayland,x11,*")
+hl.env("MOZ_ENABLE_WAYLAND", "1")
+hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
+hl.env("XCURSOR_THEME", "Adwaita")
+hl.env("XCURSOR_SIZE", "24")
+-- Cursor invisível (comum em máquina virtual)? Descomente:
+-- hl.config({ cursor = { no_hardware_cursors = true } })

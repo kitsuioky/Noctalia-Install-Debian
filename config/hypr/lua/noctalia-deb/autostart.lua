@@ -1,0 +1,6 @@
+-- autostart.lua — programas que abrem com a sessão (gerenciado pelo Noctalia-install-deb)
+hl.on("hyprland.start", function()
+  hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP XDG_SESSION_TYPE HYPRLAND_INSTANCE_SIGNATURE")
+  hl.exec_cmd("hyprctl setcursor Adwaita 24")
+  hl.exec_cmd("@SHELL_BIN@")
+end)

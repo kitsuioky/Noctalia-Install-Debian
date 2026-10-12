@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Kyo
+Description=Tela de boot simples com o logo Kyo
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/kyo
+ScriptFile=/usr/share/plymouth/themes/kyo/kyo.script

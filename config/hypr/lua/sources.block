@@ -1,0 +1,7 @@
+-- >>> noctalia-install-deb >>>
+-- Carrega as configs do instalador (pasta noctalia-deb/). Um erro em um módulo não derruba os outros.
+for _, m in ipairs({ "env", "autostart", "look", "mouse", "keybinds", "windowrules" }) do
+  local ok, err = pcall(require, "noctalia-deb." .. m)
+  if not ok then print("noctalia-install-deb: erro em " .. m .. ": " .. tostring(err)) end
+end
+-- <<< noctalia-install-deb <<<

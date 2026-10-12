@@ -1,0 +1,15 @@
+# alacritty.toml — criado pelo Noctalia-install-deb (só se você não tinha um)
+[window]
+padding = { x = 8, y = 8 }
+opacity = 0.95
+
+[font]
+normal = { family = "JetBrains Mono" }
+size = 11
+
+[selection]
+# selecionar com o mouse já copia para a área de transferência
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true

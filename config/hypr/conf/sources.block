@@ -1,0 +1,10 @@
+# >>> noctalia-install-deb >>>
+# Estas linhas carregam as configs do instalador (pasta noctalia-deb/).
+# Seus ajustes podem ir aqui embaixo ou acima; o instalador não mexe no resto deste arquivo.
+source = ~/.config/hypr/noctalia-deb/env.conf
+source = ~/.config/hypr/noctalia-deb/autostart.conf
+source = ~/.config/hypr/noctalia-deb/look.conf
+source = ~/.config/hypr/noctalia-deb/mouse.conf
+source = ~/.config/hypr/noctalia-deb/keybinds.conf
+source = ~/.config/hypr/noctalia-deb/windowrules.conf
+# <<< noctalia-install-deb <<<
